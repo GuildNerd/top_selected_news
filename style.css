@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: url(images/Preview.jpg);
+}
+
+#tituloPagina{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-size: 2.5em;
+    text-decoration: rgb(9, 16, 41) underline;
+    color: rgb(44, 160, 214);
+}
+
+.topoSite{
+    border-bottom: black solid 3px;
+}
+
+#logo{
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.menuPrincipal{
+    margin: auto;
+}
+
+.menuPrincipal a{
+    background-color:rgb(55, 133, 170);
+    color: white;
+}
+
+.menuPrincipal .ativo{
+    background-color: rgb(9, 16, 41);
+}
+
+.barraPesquisa {
+    margin: auto;
+}
+
+.btn-sumir{
+    display: none !important;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.principal{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-size: 2.5em;
+    text-decoration: rgb(9, 16, 41) underline;
+    color: rgb(44, 160, 214);
+}
+
+#lista{
+    background-color: white;
+    border: black solid 2px;
+    padding: auto;
+    margin-top: 30px;
+}
+
+#lista h2{
+    font-size: 1.5em;
+}
+
+#lista-pesquisa{
+    list-style-type:none;
+}
+
+#lista-pesquisa li{
+    left: 1px;
+}
+
+.card{
+    margin: 20px 0px;
+    border: black solid 2px;
+}
+
+.imgCard{
+    text-align: center;
+}
+
+.main img{
+    width: 400px;
+    max-height: 300px;
+}
+
+.footer p{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 320px){
+    .main img{
+        width: 230px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+    .main img{
+        width: 290px;
+        max-height: 250px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .main img{
+        width: 340px;
+        max-height: 300px;
+    }
+}

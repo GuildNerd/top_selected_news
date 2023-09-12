@@ -1,0 +1,8 @@
+Antes de testar a aplicação, recomendo que siga os seguintes passos para que o site funcione corretamente:
+
+1- Abra os arquivos pelo Visual Studio Code e use o LiveServer para rodar o site, pois abrir os arquivos diretamente no browser causa erros (o arquivo CSS não é carregado corretamente e a integração com a API dá erro)
+
+2- Depois de abrir pelo LiveServer, substitua na URL o 127.0.0.1 por localhost, pois por algum motivo o padrão do LiveServer dá problema ao fazer as requisições para a API, mas com o localhost elas ocorrem normalmente
+
+
+Caso haja alguma dúvida, pode me chamar no Whatsapp: (31)986461657
